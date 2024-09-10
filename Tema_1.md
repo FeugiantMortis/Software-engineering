@@ -28,3 +28,12 @@
 
 ## 2.1 Установка.
 ### Установка Git зависит от операционной системы, которую вы используете.
+
+### Результат.
+![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_1/pic/2.1.png)
+
+## 2.2.Настройка.
+
+### Результат.
+![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_1/pic/2.2.png)
+![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_1/pic/2.2_1.png)
