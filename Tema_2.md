@@ -80,8 +80,20 @@ print(str(string3))
 ```
 ### Результат.
 ![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_2/pic/L4.png)
-
 ## Выводы
 1. `print(bool(string1))`: В bool можно преобразовать перменную любого типа
 2. `print(float(string2))`: Преобразовать в int или float можно число float или int, строку с числами и переменные bool
 3. `print(str(string3))`: В str  можно преобразовать перменную любого типа
+
+## Лабораторная работа №5
+### Присвойте трем переменным различные значения, воспользовавшись функцией input().
+```python
+one1 = input("one:")
+two2 = input("two:")
+three3 = input("three:")
+print(one1, two2, three3)
+```
+### Результат.
+![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_2/pic/L5.png)
+## Выводы
+1. `one1 = input("one:")`: input позволяет ввести значения, которые считываются как строки.
