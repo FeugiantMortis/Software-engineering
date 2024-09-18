@@ -13,8 +13,8 @@
 | Задание 6 | + | - |
 | Задание 7 | + | - |
 | Задание 8 | + | - |
-| Задание 9 | - | - |
-| Задание 10 | - | - |
+| Задание 9 | + | - |
+| Задание 10 | + | - |
 
 знак "+" - задание выполнено; знак "-" - задание не выполнено;
 
@@ -135,3 +135,28 @@ print(word.count('o'))
 ![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_2/pic/L8.png)
 ## Выводы
 1. `print(word.count('o'))`: При помощи count можно посчитать сколько раз определенный символ встречается в строке.
+
+## Лабораторная работа №9
+### Напишите предложение ‘Hello World’ в две строки. Написанная программа должна занимать одну строку в редакторе кода.
+```python
+print("Hello\nWorld")
+```
+### Результат.
+![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_2/pic/L9.png)
+## Выводы
+1. `print("Hello\nWorld")`: Для вывода в две строки в python используется строковый литерал /n.
+
+## Лабораторная работа №10
+###  Из предложения ‘Hello World’ выведите в консоль только 2 символ, а затем выведите слово ‘Hello.
+```python
+string = "Hello world"
+print(string[1])
+print(string[:5])
+```
+### Результат.
+![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_2/pic/L10.png)
+## Выводы
+1. `print(string[:5])`: В python можно обращаться к n элементам строки
+
+
+
