@@ -10,11 +10,11 @@
 | Задание 3 | + | + |
 | Задание 4 | + | + |
 | Задание 5 | + | + |
-| Задание 6 | + | - |
-| Задание 7 | + | - |
-| Задание 8 | + | - |
-| Задание 9 | + | - |
-| Задание 10 | + | - |
+| Задание 6 | + | + |
+| Задание 7 | + | + |
+| Задание 8 | + | + |
+| Задание 9 | + | + |
+| Задание 10 | + | + |
 
 знак "+" - задание выполнено; знак "-" - задание не выполнено;
 
@@ -163,7 +163,6 @@ print(string[:5])
 print(bool(None))
 ```
 ### Результат.
-![Меню]()
 ![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_2/pic/S1.png)
 ## Выводы
 1. `print(bool(None))`: Если преобразовать переменную в None выведится False.
@@ -211,3 +210,60 @@ print(f"Сегодня {day} {month} {year}. ", end = "Всего хорошег
 ![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_2/pic/S5.png)
 ## Выводы
 1. `print(f"Сегодня {day} {month} {year}. ", end = "Всего хорошего!")`: Параметр end в python установливает окончание вывода.
+
+## Самостоятельная работа №6
+### В предложении ‘Hello World’ вставьте ‘my’ между двумя словами. Выведите полученное предложение в консоль в одну строку. Программа должна занимать не более двух строк редактора кода.
+```
+string = "Hello world"
+print(f"{string[:5]} my {string[6:]}")
+```
+### Результат.
+![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_2/pic/S6.png)
+## Выводы
+1. `print(f"{string[:5]} my {string[6:]}")`: При помощи простых срезов в python можно дополнить строку.
+
+## Самостоятельная работа №7
+### Узнайте длину предложения ‘Hello World’, результат выведите в консоль. Программа должна занимать не более двух строк редактора кода.
+```
+string = "Hello world"
+print(len(string))
+```
+### Результат.
+![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_2/pic/S7.png)
+## Выводы
+1. `print(len(string))`: Функция len в python выводит длину строки.
+
+## Самостоятельная работа №8
+### Переведите предложение ‘HELLO WORLD’ в нижний регистр. Программа должна занимать не более двух строк редактора кода.
+```
+string = "HELLO WORLD"
+print(string.lower())
+```
+### Результат.
+![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_2/pic/S8.png)
+## Выводы
+1. `print(string.lower())`: Функция lower в python приводит все символы в нижний регистр.
+
+## Самостоятельная работа №9
+### Самостоятельно придумайте задачу по проходимой теме и решите ее. Задача должна быть связанна со взаимодействием с числовыми значениями. 
+### Задача: Найти площадь квадрата со строной 5.
+```
+a = 5
+S = 0
+S = (a**2)
+print(S)
+```
+### Результат.
+![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_2/pic/S9.png)
+
+## Самостоятельная работа №10
+### Самостоятельно придумайте задачу по проходимой теме и решите ее. Задача должна быть связанна со взаимодействием со строковыми значениями.
+### Задача: Посчитать размер предлоджения и сколько раз в нем встречается символ M.
+```
+string = "I convert this instrument of art, To breathe in electronic breathe To convulse in sonic wave That which thou desirest is accomplished, be thy will performed, and all mine demands fulfilled. grant that unto succour, favour and unison, by the Invocation of thy Holy Name, so that these things may serve us for aid in all that we wish to perform therewith"
+print(len(string))
+print(string.count('M'))
+```
+### Результат.
+![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_2/pic/S10.png)
+
