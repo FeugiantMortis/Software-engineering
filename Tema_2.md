@@ -30,7 +30,8 @@ print('123')
 print(1.23)
 ```
 ### Результат.
-![Меню](https://github.com/vnika2003/Software_Engineering/blob/Тема_2/pic/Lab2_1.png)
+![Меню]()
+![Меню](https://github.com/FeugiantMortis/Software-engineering/blob/Тема_2/pic/L1.png)
 
 ## Выводы
 В данном коде выводятся три строки с использованием функции `print()`. Каждая строка содержит разные значения:
